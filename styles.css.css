@@ -1,0 +1,314 @@
+ /* ##################### CSS  Page Home ##################### */
+ .hero-image-home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+
+.hero-text-home {
+  font-family: Segoe UI Light;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.block-1-home {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #C0C0C0;
+  background-color:#F5F5F5;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px 0 #A9A9A9;
+}
+
+.text-home1{
+  h2 {
+    color: rgba(4, 142, 206, 0.658);
+    text-align: center;
+  }
+  padding: 10px;
+  font-family: Segoe UI Light;
+
+}
+.block-2-home {
+  padding: 10px;
+  background-color:#000000;
+}
+
+.text-home2{
+  h2 {
+    color: rgb(241, 245, 41);
+    text-align: center;
+    
+  }
+  p {
+    color: #ffffff;
+    text-align: center;
+  }
+  h3 {
+    color: #ffffff;
+    text-align: center;
+  }
+  padding: 10px;
+  font-family: Segoe UI Light;
+}
+
+.Team{
+  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* ##################### CSS  Page About Us ##################### */
+.hero-image-aboutus {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/aboutus.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-aboutus {
+  font-family: Segoe UI Light;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.text-aboutus {
+  text-align: center;
+  padding: 20px 20px;
+  color: #000;
+}
+
+/* CSS  columns services */
+.titre-services{
+  height: 100px; 
+  font-family: Segoe UI Light;
+  
+  background-color:#c4c3c3;
+  padding: 10px;
+  h2 {
+    color: rgba(23, 149, 199, 0.897);
+    text-align: center;
+    font-weight: bold;
+  }
+  h3 {
+    color: rgba(6, 39, 52, 0.897);
+    text-align: center;
+  } 
+}
+  /* Create two equal columns that floats next to each other */
+  * {
+    box-sizing: border-box;
+  }
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 150px; 
+    font-family: Segoe UI Light;
+    text-align: center;
+  }
+  /* ##################### CSS  Page Clients ##################### */
+.hero-image-clients {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/clients.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text-clients {
+  font-family: Segoe UI Light;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.text-clients {
+  font-family: Segoe UI Light;
+  text-align: center;
+  padding: 20px 20px;
+  color: #000;
+}
+
+/* CSS  gallery clients */
+
+  .gallery {
+    display: inline-block;
+    margin :50px;
+    width: 200px;
+  }
+
+.gallery:hover {
+  background-color: #777;
+}
+
+div.gallery img {
+  
+  width: 100%;
+  height: auto;
+}
+
+  
+/* #####################  CSS  Page Contact  ##################### */
+body {font-family: Segoe UI Light ;}
+
+.contact-hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/contactus.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact-hero-text {
+  font-family: Segoe UI Light;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.text-contact {
+  text-align: center;
+  padding: 20px 20px;
+  color: #000;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #0866e0;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #0866e0;
+}
+
+.container {
+border-radius: 5px;
+background-color: #c9e4fa;
+padding: 20px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Segoe UI Light;
+}
+
+/* ##################### CSS  Page Signin #####################  */
+.Signin{
+  margin: 100px;
+  h2 {
+    color: rgba(23, 93, 199, 0.897);
+    text-align: center;
+    font-family: Segoe UI Light ;
+  }
+}
+
+.container-Signin {
+  margin: 50px;
+  padding: 16px;
+  font-family: Segoe UI Light ;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1649FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* ##################### CSS  Page Login #####################  */
+
+.login,
+.image {
+  min-height: 500px;
+}
+
+.bg-image {
+  background-image: url('https://bootstrapious.com/i/snippets/sn-page-split/bg.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+  /* ##################### CSS  Footer ##################### */
+.footer-area {
+  
+  font-family: Segoe UI Light;
+  text-align: center;
+  color: #fff;
+  background-color: #1649FF;
+  padding: 20px 20px;
+}
+ 
